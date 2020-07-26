@@ -11,3 +11,31 @@ iframe {
 .layui-body {
     overflow: hidden;
 }
+#userImg {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #009688;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+ .img--ss {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+.layui-nav .img--ss {
+    border: 1px solid #282b33;
+}

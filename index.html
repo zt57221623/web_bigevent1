@@ -18,7 +18,7 @@
             </div>
             <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item">
-                    <a href="javascript:;">
+                    <a href="javascript:;" >
                         <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
                         个人中心
                     </a>
@@ -35,7 +35,7 @@
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="">
+                    <a href="javascript:;" id="btnSet">
                         <span class="iconfont icon-tuichu"></span>
                         退出
                     </a>
@@ -46,8 +46,13 @@
         <div class="layui-side layui-bg-black">
             <div class="layui-side-scroll">
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-                <ul class="layui-nav layui-nav-tree" lay-filter="test" lay-shrink="all">
-                    <li class="layui-nav-item layui-this">
+                <ul class="layui-nav layui-nav-tree layui-this" lay-filter="test" lay-shrink="all">
+                    <div class="img--ss">
+                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        <span id="userImg">A</span>
+                        <span id="welcome"></span>
+                    </div>
+                    <li class="layui-nav-item ">
                         <a href="home/dashboard.html" target="fm">
                         <span class="iconfont icon-home"></span>
                         首页
@@ -109,4 +114,6 @@
 </body>
 <script src="assets/lib/jquery.js"></script>
 <script src="assets/lib/layui/layui.all.js"></script>
+<script src="assets/js/baseAPI.js"></script>
+<script src="assets/js/index.js"></script>
 </html>
